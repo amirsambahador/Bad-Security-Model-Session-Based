@@ -8,7 +8,7 @@ public class JDBC {
     private static final BasicDataSource XE_DATA_SOURCE = new BasicDataSource();
 
     static {
-        XE_DATA_SOURCE.setUsername("milad");
+        XE_DATA_SOURCE.setUsername("amirsam");
         XE_DATA_SOURCE.setPassword("myjava123");
         XE_DATA_SOURCE.setDriverClassName("oracle.jdbc.driver.OracleDriver");
         XE_DATA_SOURCE.setMaxTotal(10);

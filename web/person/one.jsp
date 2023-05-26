@@ -12,6 +12,6 @@
 </head>
 <body>
 person one
-<a href="/logout.do"/>EXIT</a>
+<a href="/logout.do">EXIT</a>
 </body>
 </html>

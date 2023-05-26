@@ -13,10 +13,9 @@ public class Logout extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             req.getSession().invalidate();
-            resp.sendRedirect("/index.jsp");
         } catch (Exception e) {
             e.printStackTrace();
-            resp.sendRedirect("/index.jsp");
         }
+        resp.sendRedirect("/index.jsp");
     }
 }

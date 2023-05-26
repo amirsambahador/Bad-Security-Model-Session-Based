@@ -12,6 +12,6 @@
 </head>
 <body>
 person index
-<a href="/logout.do"/>EXIT</a>
+<a href="/logout.do">EXIT</a>
 </body>
 </html>

@@ -10,8 +10,8 @@
 <head>
     <title>Title</title>
 </head>
-
+<body>
 admin index
-<a href="/logout.do"/>EXIT</a>
+<a href="/logout.do">EXIT</a>
 </body>
 </html>
